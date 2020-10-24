@@ -13,6 +13,9 @@ class ContadorPage extends StatefulWidget {
 final _estiloTexto = new  TextStyle( fontSize: 25 );
 
 int _conteo = 0;
+
+
+
       
       @override
   Widget build(BuildContext context) {
@@ -21,6 +24,10 @@ int _conteo = 0;
         title: Text('Titulo'),
         centerTitle: true,
       ),
+
+
+
+
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -33,6 +40,8 @@ int _conteo = 0;
       floatingActionButton: _crearBotones ()
     );
   }
+
+
 
 
 Widget _crearBotones () {
@@ -50,6 +59,10 @@ Widget _crearBotones () {
   );
 
   }
+
+
+
+
 
 void _agregar() {
   setState(() => _conteo++  );
