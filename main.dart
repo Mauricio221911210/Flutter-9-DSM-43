@@ -1,6 +1,7 @@
+
 import 'package:flutter/material.dart';
 
-//Mosostros escribimos 
+//Nosostros escribimos 
 import 'src/app.dart';
 void main() {
 
@@ -9,6 +10,3 @@ void main() {
 
 
 }
-
-
-
