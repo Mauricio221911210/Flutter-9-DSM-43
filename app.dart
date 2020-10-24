@@ -7,12 +7,15 @@ import 'package:flutter_vscode/src/pages/contador_page.dart';
 
 class MyApp extends StatelessWidget {
 
+
+
+
   @override
   Widget build( context ) {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Center(
+        home: Center(
         //child: HomePage(),
         child: ContadorPage(),
       ),
